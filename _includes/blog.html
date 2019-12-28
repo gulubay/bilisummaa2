@@ -1,0 +1,15 @@
+
+        
+             
+                {% for post in site.posts %}
+                <a style="padding:0; color:black;" 
+                    class="col-3 textCenter" 
+                    href="{{ post.url }}">
+
+                        <image src="{{ post.image }}" />
+                            <p>{{ post.title }}</p>
+
+                    </a>
+                {% endfor %}
+              
+     

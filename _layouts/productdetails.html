@@ -1,0 +1,102 @@
+---
+layout: page
+head:
+  snipcart.html
+---
+<div class="product-details">
+  
+    <div class="container">
+    <div class="row">
+      
+        <div class="col-12 transitionIn col-md-2">
+          <div id="container">
+      <div id="row">
+          <div class="column col-3 col-md-12">
+            <img class="demo" src="{{ page.image }}" onclick="currentSlide(1)" alt="Nature">
+          </div>
+  
+          <div class="column col-3 col-md-12">
+            <img class="demo" src="{{ page.image2 }}" onclick="currentSlide(2)" alt="Trolltunga">
+          </div>
+  
+          <div class="column col-3 col-md-12">
+            <img class="demo" src="{{ page.image3 }}" onclick="currentSlide(3)" alt="Mountains">
+          </div>
+      </div>
+      </div>
+      </div>
+  
+    <div class="modal-content transitionIn col-12 col-md-5 col-lg-6">
+  
+      <div class="mySlides" style="display:block;">
+        <div class="numbertext">1 / 3</div>
+          <img src="{{ page.image }}" style="width:100%; ">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+          <img src="{{ page.image2 }}" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+          <img src="{{ page.image3 }}" style="width:100%">
+      </div>
+  
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      
+    </div>
+  
+    <div class="product-description col-12 col-md-4 col-lg-3">
+      <h4>{{ page.name }}</h4>
+  
+      {% if page.sale %} <span style="text-decoration:line-through;"> {% endif %}
+      <p>
+        ${{ page.price }}{% if page.zero %}0{% endif %}
+      </p>
+      
+      {% if page.sale %} </span> {% endif %}
+  
+      {% if page.sale %}
+     <h6 style="color:red;">${{ page.sale }}0 </h6>
+     {% endif %}
+  
+      <p style="font-size:18px;">
+        Color: <span style="font-family:'Nexa'; font-weight:400;">{{ page.color}}</span>
+      </p>
+      <p style="color:brown; font-size:18px;">{{page.limited_stock | textilize}}</p>
+      <p style="color:grey; font-size:18px;">{{page.outOfStock | textilize}}</p>
+      {{page.content}}
+      
+      {% if page.soldout == false %}
+      <button class="snipcart-add-item" id="my-button"
+        data-item-name="{{ page.name }}"
+        data-item-id="{{ page.sku }}"
+        data-item-image="{{ page.image }}"
+        data-item-url="{{ site.url }}{{ page.url }}"
+        data-item-custom2-name="{{page.customtype}}"
+        data-item-custom2-options="{{page.sizes}}"
+        data-item-price="{% if page.sale %}{{ page.sale }}{% else %}{{ page.price }}{% endif %}"
+        data-item-weight="{{ page.weight }}" disabled>
+        ADD TO CART 
+      </button>
+      {% endif %}
+      {% if page.soldout == true %}
+      <button disabled>SOLD OUT</button>
+      {% endif %}
+    </div>
+  </div>
+  </div>
+  
+  
+  </div>
+  
+  <div class="container" >
+    <h2 style="font-family:'Nexa';">Product Detail</h2>
+  {% for section in page.sections %}
+  <div>{{ section | textilize }}</div>
+  {% endfor %}
+  <img id="sizechart" src="{{ page.sizechart }}">
+  </div>

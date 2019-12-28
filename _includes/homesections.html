@@ -1,0 +1,40 @@
+<section>
+			<div class="textCenter">
+				<h2>New Arrivals</h2>
+				<p style="color:lightgrey;">Shop from hundreds of collections for a fashionable look.</p>
+			</div>
+
+			<div class="row justify-content-center">
+					
+
+					<!-- {% assign project-posts = site.product | where_exp: "product", "product.categories contains 'bestSeller' "  %}
+
+					{% for product in project-posts limit: 1 %}
+					  <h1>{{product.title}}</h1>
+					{% endfor %}
+					{% for product in project-posts limit:4 offset:1 %}
+					  <h2>{{product.title}}</h2>
+					{% endfor %} -->
+
+					{% for product in site.products limit:6 %}
+    				{% if product.bestSeller == true %}
+ 				  	{% include product.html %}
+					{% endif %}
+					{% endfor %}
+					 
+			</div>
+		</section>
+		
+		<section id="instagramfeed">
+			<div class="textCenter">
+				<h2>Our Instagram</h2>
+			</div>
+					<div class="sect-underline"></div>
+					<div class="container">
+					<div class="row">
+					<div class="col-12 textCenter">
+						<div id="instafeed"></div>
+					</div>
+				</div>
+			</div>
+		</section>

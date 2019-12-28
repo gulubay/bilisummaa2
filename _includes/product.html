@@ -1,0 +1,35 @@
+<div class="product transitionIn col-8 col-md-8 col-lg-3">
+  
+  <div class="thumbnailWrapper">
+      <a class="product" href="{{ product.url }}">
+        <img src="{{ product.image }}" alt="{{ product.name }}" class="userIcon"/>
+      </a>
+  </div>
+    <p>{{ product.name }}</p>
+    {% if product.sale %} <span style="text-decoration:line-through; color:grey;"> {% endif %}
+     <div id="shop-price" >${{ product.price }}{% if product.zero %}0{% endif %}</div>
+     {% if product.sale %} </span> {% endif %}
+     
+  
+     {% if product.sale %}
+     <h6 style="color:red;">${{ product.sale }}0</h6>
+     {% endif %}
+     
+  
+     
+     <p style="color:brown; font-size:18px;">{{product.limited_stock | textilize}}</p>
+      <p style="color:grey; font-size:18px;">{{product.outOfStock | textilize}}</p>
+     
+    <!-- <button class="snipcart-add-item" id="my-button"
+      data-item-name="{{ product.name }}"
+      data-item-id="{{ product.sku }}"
+      data-item-image="{{ product.image }}" 
+      data-item-url="{{ site.url }}{{ page.permalink }}"
+      data-item-custom2-name="{{product.customtype}}"
+      data-item-custom2-options="{{product.sizes}}"
+      data-item-price="{% if product.sale %}{{ product.sale }}{% else %}{{ product.price }}{% endif %}"
+      data-item-weight="{{ product.weight }}">
+       Add To Cart<span id="addIcon"> &#xf290; </span> 
+    </button> -->
+  
+  </div>
