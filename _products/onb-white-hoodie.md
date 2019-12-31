@@ -16,7 +16,7 @@ image3: /images/onb-hoodie/onb3.png
 layout: productdetails
 permalink: /onb-hoodie-white/
 customtype: Size
-sizes: X-Small|Small|Medium
+sizes: X-Small|Small|Medium|Large|X-Large
 color: White
 sections: 
 - High quality loose pullover hoodie with kangaroo pouch. Soft-touch fabric.

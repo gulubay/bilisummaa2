@@ -306,16 +306,24 @@ section {
   padding: 40px 0 40px 0;
   overflow: hidden; }
 
+.overlay {
+  overflow: hidden; }
+
+#home a {
+  color: black; }
+  #home a :hover {
+    color: orange; }
+
 .navBar {
   padding-top: 20px; }
 
 #menu-tabs {
-  width: 90%;
-  height: 640px;
-  margin-left: -90%;
+  width: 100%;
+  height: 100%;
+  margin-left: -100%;
   position: fixed;
   background: #fff;
-  z-index: 1;
+  z-index: 3;
   top: 0;
   left: 0;
   /*overflow-x: hidden;*/
@@ -420,10 +428,39 @@ p {
   margin: 10px 0 10px 0;
   border-bottom: solid 1px lightgrey; }
 
-a {
+.aSettings {
   color: black !important;
   text-decoration: none !important;
   /*text-decoration: none;*/ }
+
+.missingSize {
+  position: relative;
+  background: #00aabb;
+  width: 125px;
+  text-align: center;
+  color: #fff;
+  border-radius: .4em; }
+  .missingSize :after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #00aabb;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -10px;
+    margin-bottom: -10px; }
+
+.return-icon {
+  position: fixed;
+  padding: 10px;
+  right: 50px;
+  bottom: 50px;
+  z-index: 2;
+  background: #fff; }
 
 nav a :hover {
   color: orange !important; }
@@ -533,6 +570,14 @@ nav a :active {
     font-size: 1.4rem;
     padding-right: 15px;
     color: grey; }
+  #foot a {
+    text-decoration: none; }
+    #foot a h2 {
+      color: #fff; }
+    #foot a :hover {
+      color: orange;
+      -webkit-transition-duration: 1s;
+      -moz-transition-duration: 1s; }
 
 #foot p {
   color: #999; }
@@ -613,7 +658,11 @@ nav a :active {
   #trackCarousel {
     width: 250px;
     height: 245px;
-    object-position: 20px -100px; } }
+    object-position: 20px -100px; }
+
+  .return-icon {
+    right: 10px;
+    bottom: 10px; } }
 /**
  * Syntax highlighting styles
  */

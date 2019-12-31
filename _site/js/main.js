@@ -1,4 +1,5 @@
 
+
 function openNav() {
   document.getElementById("menu-tabs").style.marginLeft = "0%";
   // document.getElementById("mainWrapper").style.marginLeft ="90%";
@@ -7,7 +8,7 @@ function openNav() {
 }
 
 function closeNav() {
-  document.getElementById("menu-tabs").style.marginLeft = "-90%";
+  document.getElementById("menu-tabs").style.marginLeft = "-100%";
   // document.getElementById("mainWrapper").style.marginLeft = "0";
   document.getElementsByTagName("body")[0].style.overflow  = "visible";
 };
@@ -44,6 +45,8 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(".transitionIn").addClass("animate"); 
 });
+
+
 
 
 
@@ -121,6 +124,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
 
 
 

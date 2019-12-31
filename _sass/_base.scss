@@ -15,7 +15,7 @@ dl, dd, ol, ul, figure {
 }
 .snipcart-checkout:hover{
   color: #3F51B5;
-  // text-decoration: underline;
+  
 }
 
 
@@ -40,7 +40,6 @@ dl, dd, ol, ul, figure {
 }
 
 .default-summary i {
-    // color:white;
     font-size:2em;
 }
 .default-summary i:hover {
@@ -48,7 +47,6 @@ dl, dd, ol, ul, figure {
 
 }
   .snipcart-add-item{
-  // background-color: #3F51B5;
   font-family:$base-font-family;
   font-size: 14px;
   color: $brand-color;
@@ -62,7 +60,6 @@ dl, dd, ol, ul, figure {
 
 
 .snipcart-add-item:hover{
-  // box-shadow: 0px 3px 5px #888888;
   border: 2px solid #000;
   color:#000;
 }
@@ -78,7 +75,7 @@ dl, dd, ol, ul, figure {
   border-radius:50%;
   padding: 0 6px;
   position: absolute;
-  // font-family:$base-font-family;
+
 }
 
 
@@ -86,7 +83,6 @@ dl, dd, ol, ul, figure {
   width: 400px;
   padding: 25px;
   margin: 25px;
-  // background-color: #CFD8DC;
   font-size: 20px;
 
 }
@@ -104,7 +100,6 @@ dl, dd, ol, ul, figure {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  // align-items: center;
 }
 
 .products{
@@ -113,9 +108,6 @@ dl, dd, ol, ul, figure {
   justify-content: center;
   align-items: center;
   font-family:$base-font-family;
-
-  // font-weight: 200;
-    // line-height: normal;
 }
 
 
@@ -146,7 +138,6 @@ dl, dd, ol, ul, figure {
 }
 
 .product:hover{
-  // background-color: #CFD8DC;
   opacity:0.8;
   text-decoration:none;
 }
@@ -239,10 +230,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
     text-decoration: none;
     margin:0;
-
-    // &:visited {
-    //     color: darken($brand-color, 15%);
-    // }
 
     &:hover {
         color: $text-color;

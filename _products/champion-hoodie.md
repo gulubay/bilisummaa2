@@ -17,7 +17,7 @@ image3: /images/champion/champ-bili-grey3.jpg
 layout: productdetails
 permalink: /bilisummaa-champion-hoodie/
 customtype: Size
-sizes: X-Small|Small|Medium
+sizes: X-Small|Small|Medium|Large|X-Large
 color: grey
 sections: 
 - + Stay warm and cozy in the Champion Reverse Weave Pullover Hoodie
@@ -30,6 +30,7 @@ sections:
 #   Limited Stock -->
 ---
 
+<div class="missingSize"><p>Pick A Size First</p></div>
 
 <select id="my-size">
 	  <option selected disabled>Pick Size</option>

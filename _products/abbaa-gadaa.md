@@ -28,10 +28,10 @@ sections:
 - + Number 14 is for the year 2014, when human rights protests occured in 	Ethiopia 
 
 
-# <!-- limited_stock: |
-#   Limited Stock -->
+
 ---
 
+<div class="missingSize"><p>Pick A Size First</p></div>
 
 <select id="my-size">
 	 <option selected disabled>Pick Size</option>

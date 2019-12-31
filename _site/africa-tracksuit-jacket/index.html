@@ -134,7 +134,7 @@
     	<div id="menu-tabs">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span id="close-x">X</span> CLOSE MENU</a>
 		
-			<a href="index.html">B I L I S U M M A A </a>
+			<a href="/">B I L I S U M M A A </a>
 			<div class="underline" id="greyline"></div>
 			<a href="/">HOME </a>
 			<a href="/shop/">SHOP </a>
@@ -163,7 +163,7 @@
 				</div>
 			</div>
 			<div class="col-6">
-				<a href="/"><h2>BILISUMMAA</h2></a>
+				<a class="aSettings" href="/"><h2>BILISUMMAA</h2></a>
 				<p style="color:lightgrey; font-size: .5rem;">Oromo and African inspired online clothing store.</p>
 			</div>
 			<span class="default-summary col-3">
@@ -177,15 +177,15 @@
 		</div>
 		
 		<header>
-		<div class="desktopMenu">
+		<div class="desktopMenu" id="desktopMenu">
 		<div style="overflow: hidden;" class="fluid-container">
 			<div class="row top-nav textCenter">
 				<!-- <i class="fa fa-search fa-2x col-2"></i> -->
 				<div class="col-2">
-				<img style="height:3rem;" src="../images/blsmaLogo.png" alt="The Bilisummaa logo, arms crossed with crown for Oromo royalty">
+				<a href="/"><img style="height:3rem;" src="/images/blsmaLogo.png" alt="The Bilisummaa logo, arms crossed with crown for Oromo royalty"></a>
 				</div>
 				<div class="col-8">
-				<a href="/"><h2>BILISUMMAA</h2></a>
+				<a class="aSettings"  href="/"><h2>BILISUMMAA</h2></a>
 				<p style="color:lightgray">Oromo and African inspired online clothing store.</p>
 			</div>
 				<!-- <i class="fas fa-shopping-cart fa-2x col-2"></i> -->
@@ -203,16 +203,18 @@
 			<ul class="main-ul">
 				<div id="li-container" class="container">
 					<div class="row">
-						<a href="/"  class="col-sm"><li>Home</li></a>
-						<a href="/shop/"  class="col-sm"><li>Shop</li></a>
-						<a href="/about/"  class="col-sm"><li>About</li></a>
-						<a href="/blog/"  class="col-sm"><li>Blog</li></a>
-						<a href="/contact/"  class="col-sm"><li>Contact</li></a>
+						<a  href="/"  class="col-sm aSettings"><li>Home</li></a>
+						<a href="/shop/"  class="col-sm aSettings"><li>Shop</li></a>
+						<a href="/about/"  class="col-sm aSettings"><li>About</li></a>
+						<a href="/blog/"  class="col-sm aSettings"><li>Blog</li></a>
+						<a href="/contact/"  class="col-sm aSettings"><li>Contact</li></a>
 					</div>
 				</div>
 			</ul>
 		</nav>
-	</div>	
+	</div>
+	
+	<a class="aSettings" href="#desktopMenu"><div class="return-icon"><i class="fa fa-arrow-up fa-2x"></i></div></a>
    		
 
     <div class="page-content">
@@ -280,7 +282,9 @@
       </p>
       <p style="color:brown; font-size:18px;"></p>
       <p style="color:grey; font-size:18px;"></p>
-      <p><select id="my-size">
+      <div class="missingSize"><p>Pick A Size First</p></div>
+
+<p><select id="my-size">
 	  <option selected="" disabled="">Pick Size</option>
 	  <option disabled="">Small</option>
 	  <option>Medium</option>
@@ -296,7 +300,7 @@
         data-item-image="/images/tracks/trackJacket-grey1.png"
         data-item-url="http://localhost:4000/africa-tracksuit-jacket/"
         data-item-custom2-name="Size"
-        data-item-custom2-options="X-Small|Small|Medium|Large|X-large"
+        data-item-custom2-options="X-Small|Small|Medium|Large|X-Large"
         data-item-price="35.0"
         data-item-weight="480" disabled>
         ADD TO CART 
@@ -330,7 +334,7 @@
 	<div class="container">
 				<div class="row">
 					<div class="bottom-nav col-12 col-md-4 col-lg-4">
-						<h2>BILISUMMAA</h2>
+						<a href="/"><h2>BILISUMMAA</h2></a>
 						<p>An Oromo clothing store. Inspired by traditional 
 							clothing from Oromia, Ethiopia and the rest of African.
 						</p>

@@ -134,7 +134,7 @@
     	<div id="menu-tabs">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span id="close-x">X</span> CLOSE MENU</a>
 		
-			<a href="index.html">B I L I S U M M A A </a>
+			<a href="/">B I L I S U M M A A </a>
 			<div class="underline" id="greyline"></div>
 			<a href="/">HOME </a>
 			<a href="/shop/">SHOP </a>
@@ -163,7 +163,7 @@
 				</div>
 			</div>
 			<div class="col-6">
-				<a href="/"><h2>BILISUMMAA</h2></a>
+				<a class="aSettings" href="/"><h2>BILISUMMAA</h2></a>
 				<p style="color:lightgrey; font-size: .5rem;">Oromo and African inspired online clothing store.</p>
 			</div>
 			<span class="default-summary col-3">
@@ -177,15 +177,15 @@
 		</div>
 		
 		<header>
-		<div class="desktopMenu">
+		<div class="desktopMenu" id="desktopMenu">
 		<div style="overflow: hidden;" class="fluid-container">
 			<div class="row top-nav textCenter">
 				<!-- <i class="fa fa-search fa-2x col-2"></i> -->
 				<div class="col-2">
-				<img style="height:3rem;" src="../images/blsmaLogo.png" alt="The Bilisummaa logo, arms crossed with crown for Oromo royalty">
+				<a href="/"><img style="height:3rem;" src="/images/blsmaLogo.png" alt="The Bilisummaa logo, arms crossed with crown for Oromo royalty"></a>
 				</div>
 				<div class="col-8">
-				<a href="/"><h2>BILISUMMAA</h2></a>
+				<a class="aSettings"  href="/"><h2>BILISUMMAA</h2></a>
 				<p style="color:lightgray">Oromo and African inspired online clothing store.</p>
 			</div>
 				<!-- <i class="fas fa-shopping-cart fa-2x col-2"></i> -->
@@ -203,16 +203,18 @@
 			<ul class="main-ul">
 				<div id="li-container" class="container">
 					<div class="row">
-						<a href="/"  class="col-sm"><li>Home</li></a>
-						<a href="/shop/"  class="col-sm"><li>Shop</li></a>
-						<a href="/about/"  class="col-sm"><li>About</li></a>
-						<a href="/blog/"  class="col-sm"><li>Blog</li></a>
-						<a href="/contact/"  class="col-sm"><li>Contact</li></a>
+						<a  href="/"  class="col-sm aSettings"><li>Home</li></a>
+						<a href="/shop/"  class="col-sm aSettings"><li>Shop</li></a>
+						<a href="/about/"  class="col-sm aSettings"><li>About</li></a>
+						<a href="/blog/"  class="col-sm aSettings"><li>Blog</li></a>
+						<a href="/contact/"  class="col-sm aSettings"><li>Contact</li></a>
 					</div>
 				</div>
 			</ul>
 		</nav>
-	</div>	
+	</div>
+	
+	<a class="aSettings" href="#desktopMenu"><div class="return-icon"><i class="fa fa-arrow-up fa-2x"></i></div></a>
    		
 
     <div class="page-content">
@@ -220,7 +222,7 @@
       <div class="products row">
   <h1 class="col-12 textCenter mt-5"> Shop</h1>
 
-<div class="product transitionIn col-8 col-md-8 col-lg-3">
+<div class="product transitionIn col-sm-12 col-md-3 col-lg-3">
   
   <div class="thumbnailWrapper">
       <a class="product" href="/oromia-odaa-hat/">
@@ -254,7 +256,7 @@
   
   </div>
 
-<div class="product transitionIn col-8 col-md-8 col-lg-3">
+<div class="product transitionIn col-sm-12 col-md-3 col-lg-3">
   
   <div class="thumbnailWrapper">
       <a class="product" href="/onb-hoodie-black/">
@@ -288,7 +290,7 @@
   
   </div>
 
-<div class="product transitionIn col-8 col-md-8 col-lg-3">
+<div class="product transitionIn col-sm-12 col-md-3 col-lg-3">
   
   <div class="thumbnailWrapper">
       <a class="product" href="/onb-hoodie-white/">
@@ -314,7 +316,7 @@
       data-item-image="/images/onb-hoodie/onb1-grey1.png" 
       data-item-url="http://localhost:4000/shop/"
       data-item-custom2-name="Size"
-      data-item-custom2-options="X-Small|Small|Medium"
+      data-item-custom2-options="X-Small|Small|Medium|Large|X-Large"
       data-item-price="39.99"
       data-item-weight="480">
        Add To Cart<span id="addIcon"> &#xf290; </span> 
@@ -322,7 +324,7 @@
   
   </div>
 
-<div class="product transitionIn col-8 col-md-8 col-lg-3">
+<div class="product transitionIn col-sm-12 col-md-3 col-lg-3">
   
   <div class="thumbnailWrapper">
       <a class="product" href="/oromo-abbaa-gadaa-jersey/">
@@ -356,7 +358,7 @@
   
   </div>
 
-<div class="product transitionIn col-8 col-md-8 col-lg-3">
+<div class="product transitionIn col-sm-12 col-md-3 col-lg-3">
   
   <div class="thumbnailWrapper">
       <a class="product" href="/addaa-bilisummaa-oromo-jersey/">
@@ -382,7 +384,7 @@
       data-item-image="/images/jerseys/ABOjersey-grey1.jpg" 
       data-item-url="http://localhost:4000/shop/"
       data-item-custom2-name="Size"
-      data-item-custom2-options="X-Small|Small|Medium"
+      data-item-custom2-options="X-Small|Small|Medium|Large|X-Large"
       data-item-price="25.0"
       data-item-weight="480">
        Add To Cart<span id="addIcon"> &#xf290; </span> 
@@ -390,7 +392,7 @@
   
   </div>
 
-<div class="product transitionIn col-8 col-md-8 col-lg-3">
+<div class="product transitionIn col-sm-12 col-md-3 col-lg-3">
   
   <div class="thumbnailWrapper">
       <a class="product" href="/africa-tracksuit-jacket/">
@@ -416,7 +418,7 @@
       data-item-image="/images/tracks/trackJacket-grey1.png" 
       data-item-url="http://localhost:4000/shop/"
       data-item-custom2-name="Size"
-      data-item-custom2-options="X-Small|Small|Medium|Large|X-large"
+      data-item-custom2-options="X-Small|Small|Medium|Large|X-Large"
       data-item-price="35.0"
       data-item-weight="480">
        Add To Cart<span id="addIcon"> &#xf290; </span> 
@@ -424,7 +426,7 @@
   
   </div>
 
-<div class="product transitionIn col-8 col-md-8 col-lg-3">
+<div class="product transitionIn col-sm-12 col-md-3 col-lg-3">
   
   <div class="thumbnailWrapper">
       <a class="product" href="/africa-trackpants/">
@@ -450,7 +452,7 @@
       data-item-image="/images/tracks/trackpants-grey1.png" 
       data-item-url="http://localhost:4000/shop/"
       data-item-custom2-name="Size"
-      data-item-custom2-options="X-Small|Small|Medium"
+      data-item-custom2-options="X-Small|Small|Medium|Large|X-Large"
       data-item-price="30.0"
       data-item-weight="480">
        Add To Cart<span id="addIcon"> &#xf290; </span> 
@@ -458,7 +460,7 @@
   
   </div>
 
-<div class="product transitionIn col-8 col-md-8 col-lg-3">
+<div class="product transitionIn col-sm-12 col-md-3 col-lg-3">
   
   <div class="thumbnailWrapper">
       <a class="product" href="/bilisummaa-champion-hoodie/">
@@ -484,7 +486,7 @@
       data-item-image="/images/champion/champ-bili-grey1.png" 
       data-item-url="http://localhost:4000/shop/"
       data-item-custom2-name="Size"
-      data-item-custom2-options="X-Small|Small|Medium"
+      data-item-custom2-options="X-Small|Small|Medium|Large|X-Large"
       data-item-price="65.0"
       data-item-weight="480">
        Add To Cart<span id="addIcon"> &#xf290; </span> 
@@ -505,7 +507,7 @@
 	<div class="container">
 				<div class="row">
 					<div class="bottom-nav col-12 col-md-4 col-lg-4">
-						<h2>BILISUMMAA</h2>
+						<a href="/"><h2>BILISUMMAA</h2></a>
 						<p>An Oromo clothing store. Inspired by traditional 
 							clothing from Oromia, Ethiopia and the rest of African.
 						</p>

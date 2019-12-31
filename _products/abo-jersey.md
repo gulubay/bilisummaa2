@@ -17,7 +17,7 @@ image3: /images/jerseys/ABOjersey-grey3.jpg
 layout: productdetails
 permalink: /addaa-bilisummaa-oromo-jersey/
 customtype: Size
-sizes: X-Small|Small|Medium
+sizes: X-Small|Small|Medium|Large|X-Large
 color: red
 limited_stock: Limited Stock!
 sections: 
@@ -31,6 +31,8 @@ sections:
 #   Limited Stock -->
 ---
 
+
+<div class="missingSize"><p>Pick A Size First</p></div>
 
 <select id="my-size">
 	 <option selected disabled>Pick Size</option>
