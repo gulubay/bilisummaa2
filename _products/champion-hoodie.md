@@ -9,7 +9,7 @@ zero: true
 slug: champion-bilisummaa-hoodie
 soldout: false
 sku: SEBCH
-weight: 480
+weight: 0
 image: /images/champion/champ-bili-grey1.png
 image2: /images/champion/champ-bili-grey2.jpg
 image3: /images/champion/champ-bili-grey3.jpg
