@@ -2,7 +2,15 @@
   
   <div class="thumbnailWrapper">
       <a class="product" href="{{ product.url }}">
-        <img src="{{ product.image }}" alt="{{ product.name }}" class="userIcon"/>
+        <img src="{{ product.image }}" alt="{{ product.name }}" class="userIcon"
+      data-item-name="{{ product.name }}"
+      data-item-id="{{ product.sku }}"
+      data-item-image="{{ product.image }}" 
+      data-item-url="{{ site.url }}{{ page.permalink }}"
+      data-item-custom2-name="{{product.customtype}}"
+      data-item-custom2-options="{{product.sizes}}"
+      data-item-price="{% if product.sale %}{{ product.sale }}{% else %}{{ product.price }}{% endif %}"
+      data-item-weight="{{ product.weight }}"/>
       </a>
   </div>
     <p>{{ product.name }}</p>
