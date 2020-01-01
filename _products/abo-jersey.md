@@ -9,7 +9,7 @@ zero: true
 slug: oromo-ABO-jersey
 soldout: false
 sku: ABOJ
-weight: 480
+weight: 200
 image: /images/jerseys/ABOjersey-grey1.jpg
 image2: /images/jerseys/ABOjersey-grey2.jpg
 image3: /images/jerseys/ABOjersey-grey3.jpg
