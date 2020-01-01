@@ -9,7 +9,7 @@ zero: true
 slug: oromo-abbaa-gadaa-jersey
 soldout: false
 sku: AGJ
-weight: 480
+weight: 200
 image: /images/jerseys/abbaagadaa-jersey-grey1.png
 image2: /images/jerseys/abbaagadaa-jersey-grey2.png
 image3: /images/jerseys/abbaagadaa-jersey-grey3.jpg
