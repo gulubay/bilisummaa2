@@ -26,7 +26,7 @@ $(document).ready(function () {
   
 
   $('#my-size').change(function() {
-      $('#my-button').data('item-custom2-value', $(this).val());
+      $('#my-button').attr('data-item-custom2-value', $(this).val());
   });
    });
 

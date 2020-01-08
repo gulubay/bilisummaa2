@@ -40,8 +40,10 @@
  -->
 
  
-    <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="YmQxZmYwYTItZGZkZC00MDJhLTgxYmMtYmE5ZGQwYzBhYTI2NjM3MTI0MjAwMjQ3OTkyNDQx" id="snipcart"></script>
-<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+    <div src="https://cdn.snipcart.com/themes/v3.0.5/default/snipcart.js" data-api-key="Y2ZhODhkMjItNTgyYy00ZTE2LThjMjAtY2QwNmRjMGU4M2MyNjM2MzIyOTU3ODU3NTEyNjY4" hidden id="snipcart"></div>
+<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.5/default/snipcart.css" />
+<script src="https://cdn.snipcart.com/themes/v3.0.5/default/snipcart.js"></script>
+
   
   
   <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"> -->
@@ -170,11 +172,11 @@
 					<div class="snipcart-summary">
 						  <a href="#" class="snipcart-checkout">
 							<i class="fa fa-shopping-bag" aria-hidden="true"></i>
-						  <span class="snipcart-total-items">0</span>
+						  <span class="snipcart-cart-header__count snipcart__font--secondary snipcart__font--bold">0</span>
 						  </a>
 					</div>
 				</span>
-				<button class="aSettings returnDiv mobileReturnBtn" onclick="window.location.href = '#mobileMenuWrapper';"><i class="fa fa-arrow-up fa-2x"></i></button>	
+				<a class="aSettings" href="#mobileMenuWrapper"><div class="returnArrow"><i class="fa fa-arrow-up fa-2x"></i></div></a>	
 		</div>
 		
 		<header>
@@ -194,7 +196,7 @@
 			<div class="snipcart-summary">
 				  <a href="#" class="snipcart-checkout">
 					<i class="fa fa-shopping-bag" aria-hidden="true"></i>
-				  <span class="snipcart-total-items">0</span>
+				  <span class="snipcart-total-items snipcart-items-count">0</span>
 				  </a>
 			</div>
 		</span>
@@ -213,7 +215,7 @@
 				</div>
 			</ul>
 		</nav>
-		<a class="aSettings" href="#desktopMenu"><div class="returnDiv"><i class="fa fa-arrow-up fa-2x"></i></div></a>
+		<a class="aSettings" href="#desktopMenu"><div class="returnArrow" style="top:auto!important"><i class="fa fa-arrow-up fa-2x"></i></div></a>
 	</div>
 	
 	
@@ -334,7 +336,7 @@
      <p style="color:brown; font-size:18px;">Limited Stock!</p>
       <p style="color:grey; font-size:18px;"></p>
      
-    <!-- <button class="snipcart-add-item" id="my-button"
+   <!-- <button class="snipcart-add-item" id="my-button"
       data-item-name="Abbaa Gadaa"
       data-item-id="AGJ"
       data-item-image="/images/jerseys/abbaagadaa-jersey-grey1.png" 
@@ -342,7 +344,7 @@
       data-item-custom2-name="Size"
       data-item-custom2-options="X-Small|Small|Medium|Large|X-Large"
       data-item-price="25.0"
-      data-item-weight="480">
+      data-item-weight="200">
        Add To Cart<span id="addIcon"> &#xf290; </span> 
     </button> -->
   
@@ -371,15 +373,15 @@
      <p style="color:brown; font-size:18px;">Limited Stock!</p>
       <p style="color:grey; font-size:18px;"></p>
      
-    <!-- <button class="snipcart-add-item" id="my-button"
+   <!-- <button class="snipcart-add-item" id="my-button"
       data-item-name="ABO Jersey"
-      data-item-id="AGJ"
+      data-item-id="ABOJ"
       data-item-image="/images/jerseys/ABOjersey-grey1.jpg" 
       data-item-url="http://localhost:4000"
       data-item-custom2-name="Size"
       data-item-custom2-options="X-Small|Small|Medium|Large|X-Large"
       data-item-price="25.0"
-      data-item-weight="480">
+      data-item-weight="200">
        Add To Cart<span id="addIcon"> &#xf290; </span> 
     </button> -->
   
@@ -408,7 +410,7 @@
      <p style="color:brown; font-size:18px;"></p>
       <p style="color:grey; font-size:18px;"></p>
      
-    <!-- <button class="snipcart-add-item" id="my-button"
+   <!-- <button class="snipcart-add-item" id="my-button"
       data-item-name="Bilisummaa Africa Tracksuit Jacket"
       data-item-id="BATJ"
       data-item-image="/images/tracks/trackJacket-grey1.png" 
