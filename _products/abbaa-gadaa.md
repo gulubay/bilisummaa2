@@ -17,7 +17,7 @@ image3: /images/jerseys/abbaagadaa-jersey-grey3.jpg
 layout: productdetails
 permalink: /oromo-abbaa-gadaa-jersey/
 customtype: Size
-sizes: X-Small|Small|Medium|Large|X-Large
+sizes: Medium|Large|X-Large
 color: red
 limited_stock: Limited Stock!
 sections: 
