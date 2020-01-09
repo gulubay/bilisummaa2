@@ -18,7 +18,7 @@ image3: /images/tracks/trackJacket-grey3.jpg
 layout: productdetails
 permalink: /africa-tracksuit-jacket/
 customtype: Size
-sizes: X-Small|Small|Medium|Large|X-Large
+sizes: Medium|Large|X-Large
 color: Black
 sections: 
 - + Zip up Tracksuit Jacket
