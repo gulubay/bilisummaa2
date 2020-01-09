@@ -18,7 +18,7 @@ image3: /images/tracks/trackpants-grey3.jpg
 layout: productdetails
 permalink: /africa-trackpants/
 customtype: Size
-sizes: X-Small|Small|Medium|Large|X-Large
+sizes: Small|Medium|Large|X-Large
 color: Black
 # limited_stock: Limited Stock!
 sections: 
