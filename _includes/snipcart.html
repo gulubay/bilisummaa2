@@ -1,3 +1,38 @@
-<div src="https://cdn.snipcart.com/themes/v3.0.5/default/snipcart.js" data-api-key="{{ site.api_key }}" hidden id="snipcart"></div>
+<div data-api-key="{{ site.api_key }}" hidden id="snipcart">
+        <cart-summary>
+                <div @click="summaryClicked">
+                        <transition name="snipcart-cart-summary__small-transition">
+                <div class="snipcart-cart-summary">
+                        <section class="snipcart-cart-summary__content">
+                            <div class="snipcart-cart-summary__actions snipcart__box--header">
+                                <h1 class="snipcart-cart-summary__title snipcart__font--subtitle">Order Summary</h1>
+                                <close-cart-action>
+                                        <a href="#" class="snipcart-checkout snipcart__actions--link">Edit</a>              
+                                    </close-cart-action>
+                            </div>
+                            <cart-summary-items-list class="snipcart-cart-summary__items"></cart-summary-items-list>
+                            <hr class="snipcart-cart-summary__separator" />
+
+        <loading-overlay>
+                <div class="snipcart-cart-summary__totals">
+                    <cart-summary-fees></cart-summary-fees>
+                </div>
+            </loading-overlay>
+        </section>
+
+        <footer class="snipcart-cart-summary__footer">
+            <featured-payment-methods class="snipcart-featured-payment-methods--no-background"/>
+        </footer>
+        <transition name="snipcart-cart-summary__overlay-transition">
+                <div class="snipcart-cart-summary__overlay" v-if="editing" @click="closeCart"></div>
+            </transition>
+        
+            <cart :editingCart="true" class="snipcart-cart-summary--edit" v-if="editing" @close="cartClosed" />
+    </div>
+
+    
+    </div>
+</cart-summary>
+</div>
 <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.5/default/snipcart.css" />
 <script src="https://cdn.snipcart.com/themes/v3.0.5/default/snipcart.js"></script>

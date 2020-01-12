@@ -501,6 +501,9 @@ p{
     .desktopMenu{
         display: block!important;
     }
+    .desktopSnipcart{
+        display: block!important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -512,6 +515,9 @@ p{
         display: none;
     }
 
+    .mobileSnipcart{
+        display: block!important;
+    }
     #trackCarousel{
         width: 250px;
         height: 245px;

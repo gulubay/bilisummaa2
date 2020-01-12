@@ -651,6 +651,9 @@ nav a :active {
     display: none !important; }
 
   .desktopMenu {
+    display: block !important; }
+
+  .desktopSnipcart {
     display: block !important; } }
 @media (max-width: 768px) {
   .navBar {
@@ -658,6 +661,9 @@ nav a :active {
 
   .desktopMenu {
     display: none; }
+
+  .mobileSnipcart {
+    display: block !important; }
 
   #trackCarousel {
     width: 250px;
