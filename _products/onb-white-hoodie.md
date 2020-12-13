@@ -1,5 +1,6 @@
 ---
-date:   2017-09-28 19:43:58 -0400
+date:   500-01-01 19:42:58 -0400
+# REALdate:   2017-09-28 19:43:58 -0400
 name: ONB Hoodie White
 category: hoodies
 price: 39.99

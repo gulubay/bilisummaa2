@@ -2,7 +2,7 @@
 date:   2018-05-04 19:43:58 -0400
 name: Bilisummaa Africa Track Pants
 category: tracksuits
-bestSeller: true
+# bestSeller: true
 completeSets: true
 price: 30.00
 zero: true

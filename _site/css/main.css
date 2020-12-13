@@ -301,6 +301,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   /*text-align:center;*/ }
 
+a .eapps-link {
+  display: none !important; }
+
 section {
   width: 100%;
   padding: 40px 0 40px 0;

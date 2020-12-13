@@ -1,5 +1,6 @@
 ---
-date:   2018-05-01 19:42:58 -0400
+date:   100-01-01 19:42:58 -0400
+# REALdate:   2018-05-01 19:42:58 -0400
 name: Abbaa Gadaa
 category: Jerseys
 bestSeller: true
@@ -37,7 +38,7 @@ sections:
 	 <option selected disabled>Pick Size</option>
 	  <option disabled>X-Small</option>
 	  <option disabled>Small</option>
-	  <option>Medium</option>
-	  <option>Large</option>
-	  <option>X-Large</option>
+	  <option disabled>Medium</option>
+	  <option disabled>Large</option>
+	  <option disabled>X-Large</option>
 </select>

@@ -70,8 +70,8 @@ $(document).ready(function(){
     
 var feed = new Instafeed({
 	get: 'user',
-	userId: '4792937054',
-	accessToken: '4792937054.a746536.49072ffa977f4bf3bf2882f36fe558a5',
+	userId: '375308113482541',
+	accessToken: 'IGQVJXMUxOblRBejV3MG5VQUhGYjlLZAEVfbnU1NlgwM1RnMzQ1UG45MC00N3VIWHpQWjNrNnVtS0NIaGJ2dmxaV1lvNkRmUWxuMHoyRmVrbm04QkxGTUNud0FMRzJXcjYwb1F3N1pSZA0swbFFWVllxOAZDZD',
 	limit: 60,
 	sortBy: 'most-liked',
 	template: '<div class="instafeed-img"><a href="{{link}}" target="_blank"><img src="{{image}}" class="img-responsive" /></a></div>',

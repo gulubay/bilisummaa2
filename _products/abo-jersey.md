@@ -1,5 +1,6 @@
 ---
-date:   2018-05-01 19:42:58 -0400
+date:   300-01-01 19:42:58 -0400
+# REALdate:   2018-05-01 19:42:58 -0400
 name: ABO Jersey
 category: Jerseys
 bestSeller: true
@@ -7,7 +8,8 @@ price: 25.00
 zero: true
 # sale: 20.00
 slug: oromo-ABO-jersey
-soldout: false
+outOfStock: Sold Out
+soldout: true
 sku: ABOJ
 weight: 200
 image: /images/jerseys/ABOjersey-grey1.jpg
@@ -19,7 +21,7 @@ permalink: /addaa-bilisummaa-oromo-jersey/
 customtype: Size
 sizes: Large|X-Large
 color: red
-limited_stock: Limited Stock!
+# limited_stock: Limited Stock!
 sections: 
 - + Sportive material
 - + Dries fast

@@ -1,8 +1,9 @@
 ---
-date:   2018-05-04 19:42:58 -0400
+date:   400-01-01 19:42:58 -0400
+# REALdate:   2018-05-04 19:42:58 -0400
 name: Bilisummaa Africa Tracksuit Jacket
 category: tracksuits
-bestSeller: true
+# completeSets: true
 completeSets: true
 price: 35.00
 zero: true
