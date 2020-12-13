@@ -2,8 +2,8 @@
 date:   2017-09-28 19:42:58 -0400
 name: ONB Hoodie Black
 category: hoodies
-price: 39.99
-# sale: 35.00
+price: 47.99
+# sale: 39.00
 slug: oromia-bilisoomti-hoodie
 soldout: true
 outOfStock: Sold Out

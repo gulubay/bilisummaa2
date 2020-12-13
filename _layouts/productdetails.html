@@ -84,7 +84,15 @@ head:
       </button>
       {% endif %}
       {% if page.soldout == true %}
-      <button disabled>SOLD OUT</button>
+      <button disabled
+      data-item-name="{{ page.name }}"
+        data-item-id="{{ page.sku }}"
+        data-item-image="{{ page.image }}"
+        data-item-url="{{ site.url }}{{ page.url }}"
+        data-item-custom2-name="{{page.customtype}}"
+        data-item-custom2-options="{{page.sizes}}"
+        data-item-price="{% if page.sale %}{{ page.sale }}{% else %}{{ page.price }}{% endif %}"
+        data-item-weight="{{ page.weight }}" disabled>SOLD OUT</button>
       {% endif %}
     </div>
   </div>
