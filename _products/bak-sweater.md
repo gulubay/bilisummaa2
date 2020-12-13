@@ -22,8 +22,8 @@ sizes: X-Small|Small|Medium|Large|X-Large
 color: Red
 sections: 
 - 100% cotton.
-- + Drawstring hood
-- + fits generously over the body
+- + Crewneck Sweater
+- + Features a star, Odaa tree & the words Biyyaa Aba Koo "My Father's Country"
 
 # <!-- limited_stock: |
 #   Limited Stock -->
