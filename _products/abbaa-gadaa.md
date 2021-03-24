@@ -38,7 +38,7 @@ sections:
 	 <option selected disabled>Pick Size</option>
 	  <option disabled>X-Small</option>
 	  <option disabled>Small</option>
-	  <option disabled>Medium</option>
-	  <option disabled>Large</option>
+	  <option>Medium</option>
+	  <option>Large</option>
 	  <option disabled>X-Large</option>
 </select>
