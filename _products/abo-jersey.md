@@ -9,7 +9,7 @@ zero: true
 # sale: 20.00
 slug: oromo-ABO-jersey
 outOfStock: Sold Out
-soldout: false
+soldout: true
 sku: ABOJ
 weight: 200
 image: /images/jerseys/ABOjersey-grey1.jpg
@@ -42,5 +42,5 @@ sections:
 	  <option disabled>Small</option>
 	  <option disabled>Medium</option>
 	  <option disabled>Large</option>
-	  <option>X-Large</option>
+	  <option disabled>X-Large</option>
 </select>
