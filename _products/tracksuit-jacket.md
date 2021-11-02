@@ -9,7 +9,8 @@ price: 35.00
 zero: true
 # sale: 35.00
 slug: africa-trackpants
-soldout: false
+soldout: true
+outOfStock: Sold Out
 sku: BATJ
 weight: 480
 image: /images/tracks/trackJacket-grey1.png
