@@ -21,7 +21,7 @@ permalink: /oromo-abbaa-gadaa-jersey/
 customtype: Size
 sizes: Medium|Large|X-Large
 color: red
-limited_stock: Limited Stock!
+# limited_stock: Limited Stock!
 sections: 
 - + Sportive material
 - + Dries fast
