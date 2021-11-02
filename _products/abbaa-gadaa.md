@@ -8,7 +8,8 @@ price: 25.00
 zero: true
 # sale: 20.00
 slug: oromo-abbaa-gadaa-jersey
-soldout: false
+soldout: true
+outOfStock: Sold Out
 sku: AGJ
 weight: 200
 image: /images/jerseys/abbaagadaa-jersey-grey1.png
