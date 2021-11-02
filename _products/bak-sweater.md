@@ -7,8 +7,8 @@ bestSeller: true
 price: 39.99
 # sale: 35.00
 slug: biyya-aba-koo-sweater
-soldout: false
-# outOfStock: Sold Out
+soldout: true
+outOfStock: Sold Out
 sku: BAK
 weight: 480
 image: /images/crewnecks/bak-crewneck-min.jpg
